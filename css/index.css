@@ -1,0 +1,64 @@
+body {
+	font-family: 'Roboto';
+	background-color: #FEFEFE;
+	margin:0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+
+}
+
+div {
+	margin:0px;
+	padding: 0px;
+}
+
+h2 {
+	font-weight: 200;
+	margin:0;
+	padding: 0;
+}
+
+ input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#leftContainer, #rightContainer {
+	display: inline-block;
+	height: 100%;
+}
+
+#leftContainer {
+	float: left;
+	width: 50%;
+}
+
+#rightContainer {
+	float: right;
+	width: 50%;
+}
+
+#sections {
+	margin-top: 4%;
+}
+
+#sections a, #sections p {
+	display: inline-block;
+}
+
+#sections a {
+	color: #DBD8CF;
+	margin-left: 2%;
+}
+
+#icon {
+	margin-left: 4%;
+	margin-top: 2.4%;
+}
