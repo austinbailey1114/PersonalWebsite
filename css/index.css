@@ -159,3 +159,12 @@ a {
         height: 675px;
     }
 }
+
+#resumeContainer {
+	margin-top: 0;
+}
+
+#resume {
+	margin-left: 4%;
+	margin-top: 0;
+}
