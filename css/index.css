@@ -5,7 +5,6 @@ body {
 	padding: 0;
 	height: 100%;
 	overflow: hidden;
-
 }
 
 div {
@@ -13,10 +12,18 @@ div {
 	padding: 0px;
 }
 
+h1 {
+	font-weight: 300;
+}
+
 h2 {
-	font-weight: 200;
+	font-weight: 400;
 	margin:0;
 	padding: 0;
+}
+
+h3 {
+	font-weight: 400;
 }
 
  input:focus,
@@ -28,6 +35,10 @@ button:focus {
 
 a {
 	text-decoration: none;
+}
+
+#container {
+	width: 100%;
 }
 
 #leftContainer, #rightContainer {
@@ -46,7 +57,7 @@ a {
 }
 
 #sections {
-	margin-top: 4%;
+	margin-top: 3.5%;
 }
 
 #sections a, #sections p {
@@ -61,4 +72,19 @@ a {
 #icon {
 	margin-left: 4%;
 	margin-top: 2.4%;
+}
+
+#about {
+	margin-top: 150px;
+	margin-left: 4%;
+}
+
+#message {
+	margin-top: 150px;
+	font-weight: 200;
+}
+
+#projects {
+	margin-top: 200px;
+	margin-left: 4%;
 }
